@@ -42,7 +42,7 @@ This solution enables data-informed crop decisions, minimizing losses and boosti
 
 2. Ground Truth Soil Data
 
-Soil attributes:
+- Soil attributes:
 
 - pH
 
