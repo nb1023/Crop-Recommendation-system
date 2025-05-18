@@ -1,51 +1,61 @@
-## Crop Recommendation System using Satellite and Soil Data
-
 This repository presents a data-driven crop recommendation system aimed at enhancing agricultural productivity, especially in regions like Latur district, Maharashtra, where traditional crop selection methods are no longer sufficient due to:
 
-Deteriorating soil health
+- Deteriorating soil health
 
-Unpredictable rainfall patterns
+- Unpredictable rainfall patterns
 
-Diminishing groundwater reserves
+- Diminishing groundwater reserves
 
-The system integrates multi-source datasets including:
+The system integrates multi-source datasets, including:
 
-Satellite-derived indices (NDWI, SMI, MSI)
+- Satellite-derived indices (NDWI, SMI, MSI)
 
-Ground truth soil properties (pH, EC, NPK, OC, Fertility)
+- Ground truth soil properties (pH, EC, NPK, OC, Fertility)
 
-Crop labels from real-world data
+- Crop labels from real-world data
 
-The solution enables data-informed crop decisions, minimizing losses and boosting productivity for farmers and agricultural planners.
+This solution enables data-informed crop decisions, minimizing losses and boosting productivity for farmers and agricultural planners.
 
 ## Technologies Used
 
-Google Earth Engine (GEE) for remote sensing and vegetation index computation
+- Google Earth Engine (GEE) – for remote sensing and vegetation index computation
 
-Python for data processing, modeling, and analysis
+- Python – for data processing, modeling, and analysis
 
-Scikit-learn, XGBoost, LightGBM for machine learning
+- Scikit-learn, XGBoost, LightGBM – for machine learning
 
-GridSearchCV for hyperparameter tuning
+- GridSearchCV – for hyperparameter tuning
 
-Stratified K-Fold Cross-Validation for performance evaluation
+- Stratified K-Fold Cross-Validation – for performance evaluation
 
 ## Data Sources
+1. Sentinel-2 Satellite Imagery
+- 13 spectral bands used
 
-Sentinel-2 Satellite Imagery
+- Computation of:
 
-13 spectral bands used
+- NDWI (Normalized Difference Water Index)
 
-Computation of:
+- SMI (Soil Moisture Index)
 
-NDWI (Normalized Difference Water Index)
+- MSI (Moisture Stress Index)
 
-SMI (Soil Moisture Index)
+2. Ground Truth Soil Data
 
-MSI (Moisture Stress Index)
+Soil attributes:
 
-Ground Truth Soil Data
+- pH
 
-Soil attributes: pH, Electrical Conductivity (EC), Phosphorus, Potassium, Nitrogen, Organic Carbon, and Fertility Level
+- Electrical Conductivity (EC)
 
-Crop labels from farmer records in Latur, Maharashtra
+- Phosphorus
+
+- Potassium
+
+- Nitrogen
+
+- Organic Carbon
+
+- Fertility Level
+
+- Crop labels from farmer records in Latur, Maharashtra
