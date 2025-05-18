@@ -1,3 +1,5 @@
+## 🌾 Crop Recommendation System using Satellite and Soil Data
+
 This repository presents a data-driven crop recommendation system aimed at enhancing agricultural productivity, especially in regions like Latur district, Maharashtra, where traditional crop selection methods are no longer sufficient due to:
 
 - Deteriorating soil health
